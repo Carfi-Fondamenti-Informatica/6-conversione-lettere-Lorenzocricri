@@ -1,8 +1,9 @@
-#ifndef ESERCIZIO21_COMPITO3_0_LIB_H
-#define ESERCIZIO21_COMPITO3_0_LIB_H
+//
+// Created by Lenovo on 30/11/2021.
+//
 
-bool controllo(char);
-
-char cambio(char);
-
-#endif //ESERCIZIO21_COMPITO3_0_LIB_H
+#ifndef MAIN_CPP_LIB_H
+#define MAIN_CPP_LIB_H
+bool controllo (char );
+char convertitore(char );
+#endif //MAIN_CPP_LIB_H
