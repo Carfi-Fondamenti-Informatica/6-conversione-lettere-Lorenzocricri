@@ -1,5 +1,5 @@
 #include <iostream>
-#include "cmake-build-debug/lib.h"
+#include "lib.h"
 using namespace std;
 
 int main() {
