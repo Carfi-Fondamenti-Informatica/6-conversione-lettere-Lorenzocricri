@@ -1,21 +1,22 @@
-#include <iostream>
 #include "lib.h"
+using namespace std;
 
-bool controllo(char a){
-    if(a>= 'A' and a<= 'Z'){
+bool controllo (char c){
+    if (c >='A' and c <='Z'){
         return true;
-    }else if(a>= 'a' and a<= 'z'){
+    } else if(c >='a' and c<='z'){
         return true;
-    }else{
+    } else {
         return false;
     }
 }
 
-char cambio(char a) {
-    if (a >= 'A' and a <= 'Z') {
-        a = a + 32;
-    } else if (a >= 'a' and a <= 'z'){
-        a = a - 32;
+char convertitore(char c) {
+    char risultato;
+    if (c >= 'A' and c <= 'Z') {
+        risultato = c + 32;
+    } else if (c >= 'a' and c <= 'z') {
+        risultato = c - 32;
+        return risultato;
     }
-    return a;
 }
