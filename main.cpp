@@ -1,6 +1,5 @@
 #include <iostream>
-#include "cmake-build-debug/primaLibreria.h"
-
+#include "cmake-build-debug/lib.h"
 using namespace std;
 
 int main() {
@@ -21,4 +20,5 @@ int main() {
     }
     return 0;
 }
+
 
