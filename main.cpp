@@ -8,7 +8,7 @@ int main() {
     char valore=0;
     cin >> x;
     if(controllo(x) == true){
-        cout << "Vero" << endl;
+        cout << "vero" << endl;
         valore = cambio(x);
         cout << valore << endl;
     }else{
