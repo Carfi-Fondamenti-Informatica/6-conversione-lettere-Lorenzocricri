@@ -1,5 +1,5 @@
 #include <iostream>
-#include "primaLibreria.h"
+#include "lib.h"
 
 char cambio(char a) {
     if (a >= 'A' and a <= 'Z') {
