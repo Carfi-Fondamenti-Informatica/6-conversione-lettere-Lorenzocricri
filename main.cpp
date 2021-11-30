@@ -6,7 +6,6 @@ using namespace std;
 int main() {
     char x=0;
     char valore=0;
-    cout << "Inserire un carattere a scelta" << endl;
     cin >> x;
     if(controllo(x) == true){
         cout << "Vero" << endl;
